@@ -1,0 +1,4 @@
+The Search-tree node ADT is called a State, it contains the grid, the parent state, the path Cost to reach this state, and a name
+A Search Problem abstract class was created it has an initial State and goalTest method that checks if a state is a goal State
+The Telekinesis class extends the Search problem abstract class and has methods to move bricks inside the grid, methods to initialize the grid, and methods to put bricks in the grid and to clone and search the grid
+the search algorithms implemented are the ones learned in class such as the BF and DF, we are using an iterative rather than a recursive approach for searching, just as we learned in class depending on the how insert the children of our state
